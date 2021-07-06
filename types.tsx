@@ -4,13 +4,16 @@
  */
 
 export type RootStackParamList = {
-  Root: undefined;
+  WhatsApp: undefined;
   NotFound: undefined;
 };
 
-export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+export type MainTabParamList = {
+  Home: undefined;
+  Status: undefined;
+  Chats: undefined;
+  Camera: undefined;
+  Calls: undefined;
 };
 
 export type TabOneParamList = {
